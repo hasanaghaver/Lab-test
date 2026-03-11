@@ -1,0 +1,14 @@
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\bin\Debug\net8.0\Lab3.exe
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\bin\Debug\net8.0\Lab3.deps.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\bin\Debug\net8.0\Lab3.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\bin\Debug\net8.0\Lab3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\bin\Debug\net8.0\Lab3.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\refint\Lab3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\Lab3.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Lab3\Lab3\obj\Debug\net8.0\ref\Lab3.dll

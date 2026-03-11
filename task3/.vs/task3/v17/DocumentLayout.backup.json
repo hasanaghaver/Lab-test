@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\task3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB6BCE-40AF-4574-9001-8671256661B3}|task3\\task3.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\hasan\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FB6BCE-40AF-4574-9001-8671256661B3}|task3\\task3.csproj|solutionrelative:task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 450,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\task3\\task3\\Program.cs",
+              "RelativeDocumentMoniker": "task3\\Program.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\task3\\task3\\Program.cs*",
+              "RelativeToolTip": "task3\\Program.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T11:45:03.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

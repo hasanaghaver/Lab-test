@@ -1,0 +1,14 @@
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\bin\Debug\net8.0\task3.exe
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\bin\Debug\net8.0\task3.deps.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\bin\Debug\net8.0\task3.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\bin\Debug\net8.0\task3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\bin\Debug\net8.0\task3.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\refint\task3.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\task3.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\task3\task3\obj\Debug\net8.0\ref\task3.dll
