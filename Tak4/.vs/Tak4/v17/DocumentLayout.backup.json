@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\Tak4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A61C088A-DD05-4BE5-B309-7DC3C2C4C721}|Tak4\\Tak4.csproj|c:\\users\\classtime.pc_6_213_17\\desktop\\hasan\\tak4\\tak4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61C088A-DD05-4BE5-B309-7DC3C2C4C721}|Tak4\\Tak4.csproj|solutionrelative:tak4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\Tak4\\Tak4\\Program.cs",
+              "RelativeDocumentMoniker": "Tak4\\Program.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\Tak4\\Tak4\\Program.cs*",
+              "RelativeToolTip": "Tak4\\Program.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:11:13.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

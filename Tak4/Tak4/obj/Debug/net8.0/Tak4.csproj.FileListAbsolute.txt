@@ -1,0 +1,15 @@
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\bin\Debug\net8.0\Tak4.exe
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\bin\Debug\net8.0\Tak4.deps.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\bin\Debug\net8.0\Tak4.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\bin\Debug\net8.0\Tak4.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\bin\Debug\net8.0\Tak4.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.sourcelink.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\refint\Tak4.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\Tak4.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\Tak4\Tak4\obj\Debug\net8.0\ref\Tak4.dll
