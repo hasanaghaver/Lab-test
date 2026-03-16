@@ -1,0 +1,15 @@
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\bin\Debug\net8.0\ClassLab.exe
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\bin\Debug\net8.0\ClassLab.deps.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\bin\Debug\net8.0\ClassLab.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\bin\Debug\net8.0\ClassLab.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\bin\Debug\net8.0\ClassLab.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.sourcelink.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\refint\ClassLab.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ClassLab.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\ClassLab\ClassLab\obj\Debug\net8.0\ref\ClassLab.dll
