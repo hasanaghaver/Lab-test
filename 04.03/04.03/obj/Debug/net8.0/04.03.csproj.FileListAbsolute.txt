@@ -1,0 +1,15 @@
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\bin\Debug\net8.0\04.03.exe
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\bin\Debug\net8.0\04.03.deps.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\bin\Debug\net8.0\04.03.runtimeconfig.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\bin\Debug\net8.0\04.03.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\bin\Debug\net8.0\04.03.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.AssemblyInfoInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.AssemblyInfo.cs
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.sourcelink.json
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\refint\04.03.dll
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.pdb
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\04.03.genruntimeconfig.cache
+C:\Users\Classtime.PC_6_213_17\Desktop\Hasan\04.03\04.03\obj\Debug\net8.0\ref\04.03.dll

@@ -19,16 +19,15 @@ namespace _04._02_lab
             try
             {
                 taskService.AddTask(task1);
-                taskService.AddTask(task2);
+                taskService.AddTask(task1);
 
                 taskService.FindStatus(ETaskStatus.ToDo);
-                taskService.FindTitle("02");
+                taskService.FindTitle("08");
                 taskService.RemoveId(1);
             }
             catch (Exception ex)
             {
-
-                throw;
+                Console.WriteLine(ex.Message);
             }
             task1.endTime();
             task2.Time();
