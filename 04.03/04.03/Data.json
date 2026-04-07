@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Title": "Xosrov",
+    "Author": "Nizami",
+    "PageCount": 200,
+    "Price": 20,
+    "StockCount": 10,
+    "Genre": 4,
+    "CreatedAt": "2026-04-07T19:03:04.1441585+04:00"
+  },
+  {
+    "Id": 2,
+    "Title": "Seyfeli",
+    "Author": "Nizami",
+    "PageCount": 300,
+    "Price": 30,
+    "StockCount": 15,
+    "Genre": 4,
+    "CreatedAt": "2026-04-07T19:03:04.1461784+04:00"
+  },
+  {
+    "Id": 3,
+    "Title": "Seyfeli12",
+    "Author": "Nizami12",
+    "PageCount": 300,
+    "Price": 30,
+    "StockCount": 15,
+    "Genre": 4,
+    "CreatedAt": "2026-04-07T19:05:20.0298535+04:00"
+  }
+]

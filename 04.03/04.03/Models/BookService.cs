@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace _04._03.Models
@@ -13,12 +14,13 @@ namespace _04._03.Models
         //Eyni Title + Author ilə kitab əlavə olunarsa ConflictException atılsın
         //Tapılmayan id üçün NotFoundException atılsın
         public static List<Book> books = new List<Book>();
-
+        private string _filePath = "C:\\Users\\Classtime.PC_6_213_17\\Desktop\\Hasan\\04.03\\04.03\\Data.json";
+           
         public void Add(Book book)
         {
             Book titleExsist = books.Find(x => x.Title == book.Title);
             Book autorExsist = books.Find(x => x.Author == book.Author);
-            if (titleExsist != null && autorExsist !=null )
+            if (titleExsist != null && autorExsist != null)
             {
                 throw new ConflictException();
             }
@@ -27,8 +29,8 @@ namespace _04._03.Models
         }
         public Book GetById(int id)
         {
-            Book book= books.Find(x => x.Id == id);
-            if (book == null )
+            Book book = books.Find(x => x.Id == id);
+            if (book == null)
             {
                 throw new NotFoundException();
             }
@@ -37,8 +39,7 @@ namespace _04._03.Models
 
         public int CountByGenre(EGenre genre)
         {
-            int a =books.FindAll(x=> x.Genre == genre).Count;
-            return a;
+            return books.Count(i => i.Genre == genre);
         }
 
         public double GetAveragePrice()
@@ -50,43 +51,44 @@ namespace _04._03.Models
                 a += book.Price;
                 count++;
             }
-            if(count > 0) return a/count;
+            if (count > 0) return a / count;
             return 0;
         }
 
         public List<Book> GetByGenre(EGenre genre)
         {
-            return books.FindAll(x=>x.Genre == genre).ToList();
+            return books.FindAll(x => x.Genre == genre).ToList();
         }
 
         public List<Book> GetByPriceRange(double min, double max)
         {
-            return books.FindAll(x => x.Price> min && x.Price>max).ToList();  }
+            return books.FindAll(x => x.Price > min && x.Price > max).ToList(); }
 
         public Book GetCheapestBook()
         {
-            Book cheapest = books[0];
-            for (int i = 0; i < books.Count; i++)
-            {
-                if (books[i].Price < cheapest.Price)
-                {
-                    cheapest = books[i];
-                }
-            }
-            return cheapest;
+            return books.MinBy(i => i.Price);
         }
 
         public Book GetMostExpensiveBook()
         {
-            Book expensive = books[0];
-            for (int i = 0; i < books.Count; i++)
-            {
-                if (books[i].Price < expensive.Price)
-                {
-                    expensive = books[i];
-                }
-            }
-            return expensive;
+            return books.MaxBy(i => i.Price);
+        }
+
+        public void WriteToFile()
+        {
+            using FileStream fileStream = new FileStream(_filePath, FileMode.OpenOrCreate);
+            using StreamWriter streamWriter = new StreamWriter(fileStream);
+            string json = JsonSerializer.Serialize(books);
+            streamWriter.Write(json);
+            Console.WriteLine("Dataya melumatlar oturuldu");
+            
+        }
+        public void ReadFromFile()
+        {
+            using FileStream fileStream = new FileStream(_filePath, FileMode.OpenOrCreate);
+            using StreamReader streamReader = new StreamReader(fileStream);
+            string json = streamReader.ReadToEnd();
+            books = JsonSerializer.Deserialize<List<Book>>(json);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace _04._03.Models
         Science,
         History,
         Novel,
+        Romance,
         Other
 
     }
