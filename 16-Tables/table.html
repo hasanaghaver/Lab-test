@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasan</title>
+</head>
+<style>
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    .task2-table .task2-table tr,
+    .task2-table th,
+    .task2-table td {
+        border: 1px solid black;
+        border-spacing: 10px;
+    }
+
+    .task4-table,
+    .task4-table tr,
+    .task4-table th,
+    .task4-table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .task5-table,
+    .task5-table tr,
+    .task5-table th,
+    .task5-table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 200px;
+        height: 30px;
+    }
+
+    .task6-table,
+    .task6-table tr,
+    .task6-table th,
+    .task6-table td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        font-weight: bold;
+        width: 300px;
+    }
+    .table-8,
+    .table-8 tr,
+    .table-8 th,
+    .table-8 td {
+        border: 2px solid green;
+        width: 300px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry Depp</td>
+                <td>28</td>
+                <td>Britain</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>35</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Ram Krisha</td>
+                <td>19</td>
+                <td>Nepal</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+
+    <table class="task2-table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Butter</td>
+                <td>3 Kilogram</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>3 Liters</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Flavors</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Milk</td>
+                <td>Almond</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+            </tr>
+            <tr>
+                <td colspan="2">These are exculusive flavors</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table class="task4-table">
+        <tr>
+            <td rowspan="6">selection</td>
+            <td rowspan="3">subsection 1</td>
+            <td>text1</td>
+        </tr>
+        <tr>
+            <td style="width: 200px;"> text2</td>
+        </tr>
+        <tr>
+            <td>text3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="height: 40px;">subsection2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>subsection 3</td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+
+    <table class="task5-table">
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table class="task6-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">David</td>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Computers</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Alex</td>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Computers</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table class="table-8">
+        <thead>
+            <tr>
+                <th colspan="3">Product</th>
+            </tr>
+            <tr>
+                <th>No</th>
+                <th>P.Name</th>
+                <th>P.Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pen</td>
+                <td rowspan="3">50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Books</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dust</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

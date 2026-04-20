@@ -1,4 +1,4 @@
-create database music
+﻿create database music
 
 use music
 
@@ -26,14 +26,14 @@ AlbumId int foreign key references Album(Id)
 INSERT INTO Artist (Name, Nationality) VALUES 
 ('Queen', 'British'),
 ('Daft Punk', 'French'),
-('R�ya', 'Azerbaijani'),
+('Röya', 'Azerbaijani'),
 ('The Weeknd', 'Canadian'),
 ('Coldplay', 'British');
 
 INSERT INTO Album (Title, ReleaseYear, ArtistId) VALUES 
 ('A Night at the Opera', 1975, 1),
 ('Discovery', 2001, 2),           
-('G?l Dan??', 2008, 3),            
+('Gəl Danış', 2008, 3),            
 ('After Hours', 2020, 4),         
 ('Parachutes', 2000, 5);        
 
@@ -41,36 +41,36 @@ INSERT INTO Album (Title, ReleaseYear, ArtistId) VALUES
 INSERT INTO Track (Title, DurationSec, AlbumId) VALUES 
 ('Bohemian Rhapsody', 354, 1),
 ('One More Time', 320, 2),
-('G?l Dan??', 245, 3),
+('Gəl Danış', 245, 3),
 ('Blinding Lights', 200, 4),
 ('Yellow', 269, 5);
 
 
---H?r bir albumu artisinin ad? il? birlikd? g�st?rin
+--Hər bir albumu artisinin adı ilə birlikdə göstərin
 Select al.Title, al.ReleaseYear, ar.Name as Artist , ar.Nationality from Album as al
 join Artist as ar on ArtistId = ar.Id
 
---H?r bir track-in ad?n? v? onun aid oldu?u albumun ad?n? g�st?rin
+--Hər bir track-in adını və onun aid olduğu albumun adını göstərin
 Select t.Title,t.DurationSec,al.Title ,al.ReleaseYear, ar.Name from Track as t
 join Album as al on AlbumId = al.Id
 join Artist as ar on al.ArtistId = ar.Id
 
---H?r bir track-in ad?n? v? o albumun artistinin ad?n? g�st?rin
+--Hər bir track-in adını və o albumun artistinin adını göstərin
 Select t.Title, ar.Name from Track as t
 join Album as al on AlbumId = al.Id
 join Artist as ar on al.ArtistId = ar.Id
 
---2000-ci ild?n sonra �?xan albomlardak? track-l?rin adlar?n? g�st?rin
+--2000-ci ildən sonra çıxan albomlardakı track-lərin adlarını göstərin
 Select Track.Title from Track
 join Album on AlbumId =Album.Id
 where Album.ReleaseYear>2000
 
---H?r bir track-in ad?n? v? onun aid oldu?u albumun ad?n? g�st?rin, yaln?z track-l?rin m�dd?ti 240 saniy?d?n az olanlar? daxil edin.
+--Hər bir track-in adını və onun aid olduğu albumun adını göstərin, yalnız track-lərin müddəti 240 saniyədən az olanları daxil edin.
 Select Track.Title, Album.Title from Track
 join Album on AlbumId =Album.Id
 where Track.DurationSec<240
 
---ArtistAlbums view-u, h?r bir artistin ad?n? v? onun albomlar?n?n adlar?n? g�st?rin.
+--ArtistAlbums view-u, hər bir artistin adını və onun albomlarının adlarını göstərin.
 create view ArtistAlbums
 as
 select Artist.Name, Album.Title from Artist
@@ -78,7 +78,7 @@ join Album on  Album.ArtistId = Artist.Id
 
 select * from dbo.ArtistAlbums
 
---AlbumTracks view-u, h?r bir albumun ad?n? v? onun track-l?rinin adlar?n? g�st?rin.
+--AlbumTracks view-u, hər bir albumun adını və onun track-lərinin adlarını göstərin.
 create view AlbumTracks
 as
 Select Album.Title as Album, Track.Title as Title from Album
@@ -86,7 +86,7 @@ join Track on AlbumId = Album.Id
 
 select * from dbo.AlbumTracks
 
---TrackDetails view-u, h?r bir track-in ad?n?, onun aid oldu?u albumun ad?n? v? o albumun artistinin ad?n? g�st?rin.
+--TrackDetails view-u, hər bir track-in adını, onun aid olduğu albumun adını və o albumun artistinin adını göstərin.
 create view TrackDetails
 as
 Select t.Title as Track, al.Title as Album, ar.Name as Artist from Track as t
@@ -96,7 +96,7 @@ join Artist as ar on al.ArtistId = ar.Id
 select * from dbo.TrackDetails
 
 
---GetArtistAlbums stored procedure-u, bir artistin ad?n? parametr olaraq q?bul edir v? o artistin albomlar?n?n adlar?n? qaytar?r.
+--GetArtistAlbums stored procedure-u, bir artistin adını parametr olaraq qəbul edir və o artistin albomlarının adlarını qaytarır.
 create procedure GetArtistAlbums(@Name nvarchar(100))
 as
 select * from dbo.ArtistAlbums
@@ -104,7 +104,7 @@ where ArtistAlbums.Name = @Name
 
 EXEC dbo.GetArtistAlbums @Name = 'Queen'
 
---GetAlbumTracks stored procedure-u, bir albumun ad?n? parametr olaraq q?bul edir v? o albumun track-l?rinin adlar?n? qaytar?r.
+--GetAlbumTracks stored procedure-u, bir albumun adını parametr olaraq qəbul edir və o albumun track-lərinin adlarını qaytarır.
 create procedure GetAlbumTracks(@AlbumName nvarchar(100))
 as
 select * from dbo.AlbumTracks
@@ -112,7 +112,7 @@ where AlbumTracks.Album = @AlbumName
 
 exec dbo.GetAlbumTracks @AlbumName = 'Discovery'
 
---GetTrackDetails stored procedure-u, bir track-in ad?n? parametr olaraq q?bul edir v? o track-in aid oldu?u albumun ad?n? v? o albumun artistinin ad?n? qaytar?r.
+--GetTrackDetails stored procedure-u, bir track-in adını parametr olaraq qəbul edir və o track-in aid olduğu albumun adını və o albumun artistinin adını qaytarır.
 create procedure GetTrackDetails(@TrackName nvarchar(100))
 as
 select * from dbo.TrackDetails
