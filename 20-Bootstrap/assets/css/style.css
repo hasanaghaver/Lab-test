@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,ul{
+    text-decoration: none;
+}
+#head{
+    height: 953px;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg") no-repeat center fixed;
+    color: white;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section a{
+    font-family: "Merriweather Sans", sans-serif;
+    color: #ccc8c5;
+    font-weight: 900;
+    font-display: bold;
+    font-size: 14.4px;
+    gap: 20px;
+}
+.logo{
+    font-family: "Merriweather Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #ccc8c5;
+    font-size: 20px;
+    font-weight: 900;
+    font-display: bold;
+    transition: all 0.3s ease;
+}
+.logo :hover,.section a:hover{
+    color: white;
+    cursor: pointer;
+}
+.hero{
+    height: 790px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero h1{
+    width: 680px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: #ffffff;
+    font-size: 56px;    
+    text-align: center;
+}
+.orange{
+    background-color: #f4623a;
+    height: 3.19px;
+    width: 52px;
+}
+.hero p{
+    width: 680px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: #ccc8c5;
+    font-size: 18.4px;    
+    text-align: center;
+    margin:  0px 0px 20px 0px;
+}
+.hero button{
+    width: 197px;
+    height: 60px;
+    background-color: #f4623a;
+    border: none;
+    border-radius: 25px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 13.6px;
+    font-weight: 700;
+    color: white;
+}
+.start-org{
+    height: 500px;
+    background-color: #f4623a;
+}
+.start{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.start h2{
+    width: 680px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: #ffffff;
+    font-size: 32px;    
+    text-align: center;
+}
+.white{
+    background-color: white;
+    height: 3.19px;
+    width: 52px;
+}
