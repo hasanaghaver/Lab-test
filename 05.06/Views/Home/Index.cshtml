@@ -1,0 +1,10 @@
+﻿@using _05._06.Data
+@using _05._06.Models
+@model AppDbContext
+
+<ul>
+    @foreach (Product item in Model.Products)
+    {
+        <li><h1>@item.Id @item.Name @item.Price</h1></li>
+    }
+</ul>
